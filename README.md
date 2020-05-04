@@ -1,9 +1,11 @@
 
-##Setup
+## Airflow demo for the course [DD2482](https://github.com/KTH/devops-course "Devops")
+
+## Setup
 Follow Airflows installation guidelines and then the
 [setup](https://airflow.apache.org/docs/stable/start.html "Airflow")
 
-##Run
+## Run
 - Start the Airflow server `airflow webserver -p 8080`
 - Start the scheduler `airflow scheduler`
 
