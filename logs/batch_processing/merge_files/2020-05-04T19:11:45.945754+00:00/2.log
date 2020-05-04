@@ -1,0 +1,13 @@
+[2020-05-04 21:18:49,009] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.merge_files 2020-05-04T19:11:45.945754+00:00 [queued]>
+[2020-05-04 21:18:49,018] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.merge_files 2020-05-04T19:11:45.945754+00:00 [queued]>
+[2020-05-04 21:18:49,018] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 21:18:49,018] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-05-04 21:18:49,018] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 21:18:49,023] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): merge_files> on 2020-05-04T19:11:45.945754+00:00
+[2020-05-04 21:18:49,025] {standard_task_runner.py:53} INFO - Started process 13036 to run task
+[2020-05-04 21:18:49,064] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: batch_processing.merge_files 2020-05-04T19:11:45.945754+00:00 [running]> eyrunt-mbp
+[2020-05-04 21:18:49,084] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-05-04 21:18:49,087] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=batch_processing, task_id=merge_files, execution_date=20200504T191145, start_date=20200504T191849, end_date=20200504T191849
+[2020-05-04 21:18:59,008] {logging_mixin.py:112} INFO - [2020-05-04 21:18:59,007] {local_task_job.py:103} INFO - Task exited with return code 0

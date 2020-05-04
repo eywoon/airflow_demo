@@ -1,0 +1,23 @@
+[2020-05-04 23:47:52,324] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.merge_files 2020-05-04T21:42:01.993735+00:00 [queued]>
+[2020-05-04 23:47:52,332] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.merge_files 2020-05-04T21:42:01.993735+00:00 [queued]>
+[2020-05-04 23:47:52,332] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 23:47:52,332] {taskinstance.py:880} INFO - Starting attempt 4 of 5
+[2020-05-04 23:47:52,332] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 23:47:52,337] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): merge_files> on 2020-05-04T21:42:01.993735+00:00
+[2020-05-04 23:47:52,339] {standard_task_runner.py:53} INFO - Started process 23064 to run task
+[2020-05-04 23:47:52,375] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: batch_processing.merge_files 2020-05-04T21:42:01.993735+00:00 [running]> eyrunt-mbp
+[2020-05-04 23:47:52,385] {taskinstance.py:1145} ERROR - [Errno 2] No such file or directory: 'Users/eyrunt/Desktop/ftp_imports/output0.053169335797991324.txt'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/eyrunt/airflow/dags/usage_example.py", line 51, in file_merger
+    with open(output_path, 'w') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'Users/eyrunt/Desktop/ftp_imports/output0.053169335797991324.txt'
+[2020-05-04 23:47:52,386] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-05-04 23:48:02,323] {logging_mixin.py:112} INFO - [2020-05-04 23:48:02,322] {local_task_job.py:103} INFO - Task exited with return code 1

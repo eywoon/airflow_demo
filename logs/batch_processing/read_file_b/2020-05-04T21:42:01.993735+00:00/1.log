@@ -1,0 +1,14 @@
+[2020-05-04 23:42:41,639] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.read_file_b 2020-05-04T21:42:01.993735+00:00 [queued]>
+[2020-05-04 23:42:41,645] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.read_file_b 2020-05-04T21:42:01.993735+00:00 [queued]>
+[2020-05-04 23:42:41,645] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 23:42:41,645] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-05-04 23:42:41,645] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 23:42:41,650] {taskinstance.py:900} INFO - Executing <Task(FileSensor): read_file_b> on 2020-05-04T21:42:01.993735+00:00
+[2020-05-04 23:42:41,652] {standard_task_runner.py:53} INFO - Started process 22809 to run task
+[2020-05-04 23:42:41,691] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: batch_processing.read_file_b 2020-05-04T21:42:01.993735+00:00 [running]> eyrunt-mbp
+[2020-05-04 23:42:41,705] {file_sensor.py:60} INFO - Poking for file /Users/eyrunt/Desktop/ftp_imports/fileB.txt
+[2020-05-04 23:42:41,705] {base_sensor_operator.py:123} INFO - Success criteria met. Exiting.
+[2020-05-04 23:42:41,708] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=batch_processing, task_id=read_file_b, execution_date=20200504T214201, start_date=20200504T214241, end_date=20200504T214241
+[2020-05-04 23:42:51,637] {logging_mixin.py:112} INFO - [2020-05-04 23:42:51,636] {local_task_job.py:103} INFO - Task exited with return code 0

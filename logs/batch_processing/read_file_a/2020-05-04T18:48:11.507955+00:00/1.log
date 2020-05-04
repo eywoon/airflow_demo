@@ -1,0 +1,491 @@
+[2020-05-04 20:54:02,478] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.read_file_a 2020-05-04T18:48:11.507955+00:00 [queued]>
+[2020-05-04 20:54:02,484] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: batch_processing.read_file_a 2020-05-04T18:48:11.507955+00:00 [queued]>
+[2020-05-04 20:54:02,484] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 20:54:02,484] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-05-04 20:54:02,484] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-04 20:54:02,489] {taskinstance.py:900} INFO - Executing <Task(FileSensor): read_file_a> on 2020-05-04T18:48:11.507955+00:00
+[2020-05-04 20:54:02,491] {standard_task_runner.py:53} INFO - Started process 11040 to run task
+[2020-05-04 20:54:02,535] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: batch_processing.read_file_a 2020-05-04T18:48:11.507955+00:00 [running]> eyrunt-mbp
+[2020-05-04 20:54:02,548] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:54:32,555] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:55:02,562] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:55:32,569] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:56:02,576] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:56:32,583] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:57:02,588] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:57:32,592] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:58:02,598] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:58:32,607] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:59:02,614] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 20:59:32,620] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:00:02,626] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:00:32,634] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:01:02,639] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:01:32,645] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:02:02,650] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:02:32,658] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:03:02,664] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:03:32,672] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:04:02,682] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:04:32,690] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:05:02,695] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:05:32,701] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:06:02,709] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:06:32,716] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:07:02,723] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:07:32,729] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:08:02,736] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:08:32,744] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:09:02,748] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:09:32,752] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:10:02,757] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:10:32,762] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:11:02,769] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:11:32,774] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:12:02,781] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:12:32,787] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:13:02,793] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:13:32,798] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:14:02,803] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:14:32,809] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:15:02,817] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:15:32,823] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:16:02,831] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:16:32,839] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:17:02,846] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:17:32,853] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:18:02,859] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:18:32,867] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:19:02,873] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:19:32,879] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:20:02,886] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:20:32,894] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:21:02,900] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:21:32,906] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:22:02,911] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:22:32,914] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:23:02,917] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:23:32,922] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:24:02,928] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:24:32,935] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:25:02,940] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:25:32,946] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:26:02,953] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:26:32,957] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:27:02,960] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:27:32,964] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:28:02,968] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:28:32,973] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:29:02,980] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:29:32,985] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:30:02,989] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:30:32,993] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:31:02,998] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:31:33,002] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:32:03,005] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:32:33,009] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:33:03,014] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:33:33,021] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:34:03,031] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:34:33,040] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:35:03,046] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:35:33,053] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:36:03,061] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:36:33,068] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:37:03,077] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:37:33,083] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:38:03,087] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:38:33,092] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:39:03,096] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:39:33,103] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:40:03,111] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:40:33,118] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:41:03,124] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:41:33,131] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:42:03,138] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:42:33,142] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:43:03,148] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:43:33,154] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:44:03,160] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:44:33,166] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:45:03,172] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:45:33,177] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:46:03,184] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:46:33,189] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:47:03,194] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:47:33,200] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:48:03,207] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:48:33,210] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:49:03,217] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:49:33,222] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:50:03,230] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:50:33,238] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:51:03,241] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:51:33,246] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:52:03,251] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:52:33,258] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:53:03,265] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:53:33,272] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:54:03,278] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:54:33,285] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:55:03,289] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:55:33,295] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:56:03,301] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:56:33,308] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:57:03,314] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:57:33,319] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:58:03,326] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:58:33,332] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:59:03,336] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 21:59:33,343] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:00:03,349] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:00:33,354] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:01:03,362] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:01:33,367] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:02:03,373] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:02:33,380] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:03:03,384] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:03:33,388] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:04:03,395] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:04:33,400] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:05:03,406] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:05:33,414] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:06:03,424] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:06:33,431] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:07:03,438] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:07:33,445] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:08:03,452] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:08:33,457] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:09:03,464] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:09:33,470] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:10:03,477] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:10:33,484] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:11:03,492] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:11:33,498] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:12:03,503] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:12:33,509] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:13:03,516] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:13:33,519] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:14:03,524] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:14:33,530] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:15:03,537] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:15:33,543] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:16:03,550] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:16:33,557] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:17:03,564] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:17:33,569] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:18:03,574] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:18:33,580] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:19:03,583] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:19:33,587] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:20:03,591] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:20:33,596] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:21:03,604] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:21:33,609] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:22:03,615] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:22:33,620] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:23:03,627] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:23:33,634] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:24:03,641] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:24:33,650] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:25:03,656] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:25:33,663] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:26:03,671] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:26:33,676] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:27:03,681] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:27:33,689] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:28:03,697] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:28:33,703] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:29:03,709] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:29:33,716] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:30:03,722] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:30:33,730] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:31:03,737] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:31:33,743] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:32:03,749] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:32:33,754] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:33:03,764] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:33:33,771] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:34:03,778] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:34:33,784] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:35:03,788] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:35:33,793] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:36:03,804] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:36:33,812] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:37:03,824] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:37:33,832] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:38:03,837] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:38:33,843] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:39:03,849] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:39:33,856] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:40:03,862] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:40:33,867] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:41:03,874] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:41:33,881] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:42:03,887] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:42:33,893] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:43:03,900] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:43:33,906] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:44:03,912] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:44:33,919] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:45:03,924] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:45:33,931] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:46:03,939] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:46:33,942] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:47:03,949] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:47:33,955] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:48:03,961] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:48:33,968] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:49:03,974] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:49:33,981] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:50:03,988] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:50:33,995] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:51:04,006] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:51:34,018] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:52:04,024] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:52:34,031] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:53:04,037] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:53:34,044] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:54:04,048] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:54:34,054] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:55:04,058] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:55:34,064] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:56:04,068] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:56:34,073] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:57:04,079] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:57:34,083] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:58:04,089] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:58:34,096] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:59:04,101] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 22:59:34,107] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:00:04,114] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:00:34,120] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:01:04,126] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:01:34,130] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:02:04,136] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:02:34,140] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:03:04,145] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:03:34,150] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:04:04,156] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:04:34,163] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:05:04,170] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:05:34,178] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:06:04,187] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:06:34,195] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:07:04,201] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:07:34,206] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:08:04,213] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:08:34,217] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:09:04,224] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:09:34,231] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:10:04,238] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:10:34,244] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:11:04,250] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:11:34,256] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:12:04,261] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:12:34,268] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:13:04,276] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:13:34,283] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:14:04,289] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:14:34,297] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:15:04,306] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:15:34,311] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:16:04,316] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:16:34,321] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:17:04,327] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:17:34,332] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:18:04,337] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:18:34,341] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:19:04,350] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:19:34,354] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:20:04,361] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:20:34,367] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:21:04,373] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:21:34,380] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:22:04,387] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:22:34,392] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:23:04,399] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:23:34,406] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:24:04,412] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:24:34,419] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:25:04,427] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:25:34,432] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:26:04,435] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:26:34,442] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:27:04,448] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:27:34,451] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:28:04,458] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:28:34,466] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:29:04,470] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:29:34,478] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:30:04,482] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:30:34,489] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:31:04,496] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:31:34,500] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:32:04,507] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:32:34,513] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:33:04,521] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:33:34,527] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:34:04,532] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:34:34,540] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:35:04,544] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:35:34,548] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:36:04,554] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:36:34,559] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:37:04,566] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:37:34,572] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:38:04,577] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:38:34,580] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:39:04,587] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:39:34,594] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:40:04,601] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:40:34,609] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:41:04,615] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:41:34,623] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:42:04,628] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:42:34,633] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:43:04,639] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:43:34,646] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:44:04,653] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:44:34,659] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:45:04,663] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:45:34,669] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:46:04,675] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:46:34,680] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:47:04,687] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:47:34,694] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:48:04,701] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:48:34,707] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:49:04,714] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:49:34,720] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:50:04,725] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:50:34,732] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:51:04,743] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:51:34,753] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:52:04,761] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:52:34,767] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:53:04,773] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:53:34,780] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:54:04,786] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:54:34,792] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:55:04,797] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:55:34,804] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:56:04,808] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:56:34,813] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:57:04,819] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:57:34,825] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:58:04,831] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:58:34,834] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:59:04,842] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-04 23:59:34,848] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:00:04,857] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:00:34,863] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:01:04,867] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:01:34,871] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:02:04,874] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:02:34,880] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:03:04,887] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:03:34,895] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:04:04,900] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:04:34,907] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:05:04,911] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:05:34,918] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:06:04,927] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:06:34,937] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:07:04,945] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:07:34,951] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:08:04,957] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:08:34,961] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:09:04,968] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:09:34,975] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:10:04,982] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:10:34,986] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:11:04,990] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:11:34,997] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:12:05,004] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:12:35,009] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:13:05,013] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:13:35,019] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:14:05,025] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:14:35,032] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:15:05,037] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:15:35,044] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:16:05,049] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:16:35,056] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:17:05,063] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:17:35,069] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:18:05,075] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:18:35,083] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:19:05,089] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:19:35,096] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:20:05,102] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:20:35,108] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:21:05,118] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:21:35,128] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:22:05,135] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:22:35,141] {file_sensor.py:60} INFO - Poking for file /Desktop/ftp_imports/fileA.csv
+[2020-05-05 00:23:05,160] {taskinstance.py:1145} ERROR - (sqlite3.OperationalError) no such table: connection
+[SQL: SELECT connection.password AS connection_password, connection.extra AS connection_extra, connection.id AS connection_id, connection.conn_id AS connection_conn_id, connection.conn_type AS connection_conn_type, connection.host AS connection_host, connection.schema AS connection_schema, connection.login AS connection_login, connection.port AS connection_port, connection.is_encrypted AS connection_is_encrypted, connection.is_extra_encrypted AS connection_is_extra_encrypted 
+FROM connection 
+WHERE connection.conn_id = ?]
+[parameters: ('fs_default',)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/sensors/base_sensor_operator.py", line 107, in execute
+    while not self.poke(context):
+  File "/usr/local/lib/python3.7/site-packages/airflow/contrib/sensors/file_sensor.py", line 57, in poke
+    hook = FSHook(self.fs_conn_id)
+  File "/usr/local/lib/python3.7/site-packages/airflow/contrib/hooks/fs_hook.py", line 38, in __init__
+    conn = self.get_connection(conn_id)
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/base_hook.py", line 84, in get_connection
+    conn = random.choice(list(cls.get_connections(conn_id)))
+  File "/usr/local/lib/python3.7/site-packages/airflow/hooks/base_hook.py", line 80, in get_connections
+    return secrets.get_connections(conn_id)
+  File "/usr/local/lib/python3.7/site-packages/airflow/secrets/__init__.py", line 52, in get_connections
+    conn_list = secrets_backend.get_connections(conn_id=conn_id)
+  File "/usr/local/lib/python3.7/site-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/airflow/secrets/metastore.py", line 38, in get_connections
+    conn_list = session.query(Connection).filter(Connection.conn_id == conn_id).all()
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3246, in all
+    return list(self)
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3405, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3430, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: connection
+[SQL: SELECT connection.password AS connection_password, connection.extra AS connection_extra, connection.id AS connection_id, connection.conn_id AS connection_conn_id, connection.conn_type AS connection_conn_type, connection.host AS connection_host, connection.schema AS connection_schema, connection.login AS connection_login, connection.port AS connection_port, connection.is_encrypted AS connection_is_encrypted, connection.is_extra_encrypted AS connection_is_extra_encrypted 
+FROM connection 
+WHERE connection.conn_id = ?]
+[parameters: ('fs_default',)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-05-05 00:23:05,176] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
