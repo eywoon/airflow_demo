@@ -7,7 +7,6 @@ from airflow.contrib.sensors.file_sensor import FileSensor
 from airflow.hooks.base_hook import BaseHook
 from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperator
 from random import random
-file_path = 'Users/eyrunt/Desktop/ftp_imports'
 
 
 default_args = {
@@ -31,7 +30,7 @@ read_file_a = FileSensor(
     task_id='read_file_a',
     poke_interval=30,
     #filepath is dependant on how the connection fs_default is set up
-    filepath=file_path + '/fileA.txt',
+    filepath='resources/fileA.txt',
     fs_conn_id='fs_default',
     dag=dag
 )
@@ -39,15 +38,15 @@ read_file_a = FileSensor(
 read_file_b = FileSensor(
     task_id='read_file_b',
     poke_interval=30,
-    filepath=file_path + '/fileB.txt',
+    filepath='resources/fileB.txt',
     fs_conn_id='fs_default',
     dag=dag
 )
 
 def file_merger():
     fileID = random()
-    output_path = "output{fileID}.txt".format(fileID = fileID)
-    filenames = ['fileA.txt', 'fileB.txt']
+    output_path = "resources/output{fileID}.txt".format(fileID = fileID)
+    filenames = ['resources/fileA.txt', 'resources/fileB.txt']
     with open(output_path, 'w') as outfile:
         for fname in filenames:
             with open(fname) as infile:

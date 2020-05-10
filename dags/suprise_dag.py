@@ -12,16 +12,16 @@ default_args = {
 }
 
 dag = DAG(
-    'easter_egg',
+    'example_dag',
     default_args=default_args,
-    description='A sneaky easter egg',
+    description='But what does it do?',
     schedule_interval=timedelta(days=1)
 )
 
-show_easter_egg = BashOperator(
-    task_id='show_easter_egg',
+what_is_this_thing = BashOperator(
+    task_id='what_is_this_thing',
     bash_command='python -mwebbrowser https://www.youtube.com/watch?v=dQw4w9WgXcQ',
     dag=dag
 )
 
-show_easter_egg
+what_is_this_thing

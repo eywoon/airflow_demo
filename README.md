@@ -1,4 +1,4 @@
-##Description
+## Description
 This is a repository for a demo for workflow orchestration with Airflow.
 It has an integration to slack to show how easy it is to add integrations to external sources
 with Airflow's operators.
@@ -8,13 +8,13 @@ the tasks are links in the graph.
 
 [Link to demo video](https://youtu.be/lYMHb_muOew "Demo")
 
-##Setup
+## Setup
 Setup varies between platforms so it's easiest to use Airflow's guidelines to get started.
 
 Follow Airflows installation guidelines
 [installation guidelines](https://airflow.apache.org/docs/stable/start.html "Airflow Quickstart")
 
-##Run
+## Run
 Note that this repository isn't exactly plug and play but rather an example.
 You will have to set it up locally with correct configurations for it to run.
 It's missing the config files from this repository.
@@ -45,7 +45,7 @@ To run a dag directly from the command line use
 
 For the tasks to run properly you will have to update the file system path in admin -> connections -> fs_default to point to the airflow how or where you store your dags, the default value for the file system path is "/"
 
-##Slack
+## Slack
 For everything to run smoothly with the Slack you will have to follow Slack's guide to webhooks and apps.
 [Slack apps](https://api.slack.com/start/overview "Slack apps")
 
@@ -53,6 +53,6 @@ When you have set up and app you have go add a connection to Airflow, by going t
 Create a http connection named slack. Set the host as https://hooks.slack.com/services
 and the password is the rest of the webhook url that you have generated.
 
-##Easter Egg
+## Easter Egg
 Seek and you will find!
 Pssst, if you can't find it check the end of the previous demo video
